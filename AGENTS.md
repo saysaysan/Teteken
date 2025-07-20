@@ -1,5 +1,34 @@
 # AGENTS.md
 
+## スクリプト関連タスクリスト
+
+- [ ] `DOTweenInit.cs`  
+  - DOTween の初期化と設定
+
+- [ ] `SceneController.cs`  
+  - メインメニュー→バトル→リザルトのシーン遷移制御
+
+- [ ] `CharacterDataSO.cs`  
+  - キャラクター用 ScriptableObject 定義（ステータス／アニメ／声）
+
+- [ ] `MonsterDataSO.cs`  
+  - モンスター用 ScriptableObject 定義（ステータス／ドロップ／ステージ紐付け）
+
+- [ ] `BattleSystem.cs`  
+  - ターン管理、コマンド選択、ダメージ計算、勝敗判定
+
+- [ ] `BattleUIController.cs`  
+  - HP/MP 表示、コマンドボタン操作、リザルト UI
+
+- [ ] `EffectManager.cs`  
+  - 攻撃エフェクト（Particle＋DOTween シーケンス）再生・破棄
+
+- [ ] `StageManager.cs`  
+  - ステージデータ読み込み、クリア判定、次ステージ遷移
+
+- [ ] `StoryTextController.cs`  
+  - ステージクリア時のテキスト／カットシーン表示制御
+
 ## プロジェクト概要
 - **タイトル**：鉄々剣  
 - **ジャンル**：ノンフィールドRPG（マップ移動なし、ステージクリアで物語進行）  
